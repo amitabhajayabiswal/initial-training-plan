@@ -5,8 +5,11 @@ import org.hibernate.cfg.Configuration;
 
 public class FactoryProvider {
 
-	public static SessionFactory factory;
+	private static SessionFactory factory;
 
+	private FactoryProvider(){
+
+	}
 	public static SessionFactory getFactory() {
 
 		if (factory == null) {
@@ -21,4 +24,5 @@ public class FactoryProvider {
 			factory.close();
 		}
 	}
+	//Check whether this is a single design pattern or not
 }

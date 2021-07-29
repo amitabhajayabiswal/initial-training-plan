@@ -1,4 +1,7 @@
-c:\Users\amita\Desktop\note-taking-app\src\main\java\helper\FactoryProvider.java
-c:\Users\amita\Desktop\note-taking-app\src\main\java\servlets\SaveNoteServlet.java
-c:\Users\amita\Desktop\note-taking-app\src\main\java\entities\Note.java
-c:\Users\amita\Desktop\note-taking-app\src\main\java\servlets\DeleteServlet.java
+c:\Users\amita\Desktop\Java\new-folder\note-taking-app\src\main\java\helper\FactoryProvider.java
+c:\Users\amita\Desktop\Java\new-folder\note-taking-app\src\main\java\servlets\Logout.java
+c:\Users\amita\Desktop\Java\new-folder\note-taking-app\src\main\java\servlets\SaveNoteServlet.java
+c:\Users\amita\Desktop\Java\new-folder\note-taking-app\src\main\java\entities\Note.java
+c:\Users\amita\Desktop\Java\new-folder\note-taking-app\src\main\java\dao\NotesDAO.java
+c:\Users\amita\Desktop\Java\new-folder\note-taking-app\src\main\java\filter\LoginFilter.java
+c:\Users\amita\Desktop\Java\new-folder\note-taking-app\src\main\java\servlets\LoginServlet.java

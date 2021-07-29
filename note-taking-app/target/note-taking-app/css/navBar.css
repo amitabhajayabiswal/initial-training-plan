@@ -1,0 +1,18 @@
+.body  
+{  
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;  
+    background-color:#083dadba;  
+    font-family: 'Arial'; 
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 70px; 
+}
+.logout{
+    align-items: flex-end;
+}
+.navbarSupportedContent{
+    align-items: flex-start;
+}
