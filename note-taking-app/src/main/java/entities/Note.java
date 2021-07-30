@@ -8,14 +8,17 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
+@Entity(name="note")
 @Table(name = "notes")
 public class Note {
+	
 	@Id
 	private int id;
+	
+	@Column(nullable = false)
 	private String title;
 	
-	@Column(length = 1500)
+	@Column(length = 1500, nullable = false)
 	private String content;
 	private Date addedDate;
 
@@ -62,7 +65,4 @@ public class Note {
 	public Note() {
 		super();
 	}
-	
-	
-
 }

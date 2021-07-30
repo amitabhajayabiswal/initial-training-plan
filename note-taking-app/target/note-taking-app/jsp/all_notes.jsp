@@ -17,20 +17,19 @@
 		<br>
 		<h1>All Notes:</h1>
 		<div class="row">
-
 			<div>
 				<%
-					List<Note> noteList = (List<Note>)request.getAttribute("list");
-					out.println(noteList);
+					<jsp:include page="/notes" method=get>	
+					List<Note> noteList = (List<Note>)request.getAttribute("list");		
 				%>
 				<%--
 				<div >
 					<div class="notes-row">
-						<h5 ><%= note.getTitle() %></h5>
+						<h5 ><%= noteList.getTitle() %></h5>
 						<p>
-						<%= note.getContent() %>
+						<%= noteList.getContent() %>
 						</p>
-						<p><b><%= note.getAddedDate()%></b></p>
+						<p><b><%= noteList.getAddedDate()%></b></p>
 						<div>
 						<a href="DeleteServlet?note_id=<%= note.getId() %>">Delete</a>
 						<a href="edit.jsp?note_id=<%= note.getId() %>" >Update</a>

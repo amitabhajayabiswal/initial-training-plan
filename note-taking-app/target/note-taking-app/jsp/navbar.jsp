@@ -6,13 +6,13 @@
   <div id="navbarSupportedContent" class="leftNavBar">
     <ul>
       <li>
-        <a href="index.jsp">Home</span></a>
+        <a href="../index.jsp">Home</span></a>
       </li>
       <li>
         <a href="add_notes.jsp">Add Note</a>
       </li>
       <li>
-        <a href="all_notes.jsp">Show Notes</a>
+        <a href="allNotes.jsp">Show Notes</a>
       </li>
     </ul>
   </div>

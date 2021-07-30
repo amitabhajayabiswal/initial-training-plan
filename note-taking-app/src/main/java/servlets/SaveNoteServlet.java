@@ -1,7 +1,6 @@
 package servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Date;
 import java.util.List;
 
@@ -13,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import dao.NotesDAO;
 import entities.Note;
+import exception.CustomException;
 
 @WebServlet(value = "/notes")
 public class SaveNoteServlet extends HttpServlet {
@@ -25,15 +25,15 @@ public class SaveNoteServlet extends HttpServlet {
 			String content = request.getParameter("content");
 			
 			Note note = new Note(title, content, new Date());
-			dao.addNotes(note);
+			try {
+				dao.addNotes(note);
+			} catch (CustomException e) {
+				e.printStackTrace();
+			}
 			
 			response.setContentType("text/html");
 			request.setAttribute("displayMessage", "Note is added successfully");
-
-			PrintWriter out=response.getWriter();
-
-			out.println("<h1 style='text-align:center ;'>Note is added successfully</h1>");
-			out.println("<h1 style='text-align:center ; '> <a href='all_notes.jsp'>View all notes</a> </h1>");
+			request.getRequestDispatcher("display.jsp").forward(request, response);;
 	}
 
 	@Override

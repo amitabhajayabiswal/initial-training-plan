@@ -1,95 +1,105 @@
 package dao;
 
 import org.hibernate.Transaction;
+import org.hibernate.exception.ConstraintViolationException;
 import org.hibernate.exception.DataException;
-import org.hibernate.query.Query;
 
 import java.util.List;
 import javax.persistence.EntityManager;
+import javax.persistence.QueryTimeoutException;
+
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 
 import entities.Note;
+import exception.CustomException;
 import helper.FactoryProvider;
 
 public class NotesDAO {
-    
-    //SessionFactory databaseSession = FactoryProvider.getFactory();
-    Session noteDatabaSession;
+
+    Session noteDatabaseConnection;
     Transaction databaseTransaction;
+    protected EntityManager manager;
 
-    //Check fornaming convention for crud operations
-    public void addNotes(Note notes){
+    public NotesDAO(){
+        noteDatabaseConnection = FactoryProvider.getFactory().openSession();
+    }
+
+    public void addNotes(Note notes) throws CustomException{
         
-        noteDatabaSession = FactoryProvider.getFactory().openSession();
-
         try{
-            databaseTransaction = noteDatabaSession.beginTransaction();
-            noteDatabaSession.save(notes);
+            databaseTransaction = noteDatabaseConnection.beginTransaction();
+            noteDatabaseConnection.save(notes);
             databaseTransaction.commit();
-            noteDatabaSession.close();
         }
         catch(DataException dataException){
             dataException.printStackTrace();
+            databaseTransaction.rollback();
+        }
+        catch(ConstraintViolationException constraintViolationException){
+            databaseTransaction.rollback();
+            if(notes.getTitle() == null || notes.getContent() == null){
+                throw new CustomException("Title or notes of the form cannot be null");
+            }
+            constraintViolationException.printStackTrace();
         }
         catch(HibernateException hibernateException){
-            try{
-                databaseTransaction.rollback();
-            } catch(RuntimeException re){
-                System.err.println("Couldnot rollback transaction");
-            }
             hibernateException.printStackTrace();
+            databaseTransaction.rollback();
+        }
+        finally{
+            noteDatabaseConnection.close();
         }
     }
 
     public void deleteNotes(int noteId){
 
-        noteDatabaSession = FactoryProvider.getFactory().openSession();
-        databaseTransaction = noteDatabaSession.beginTransaction();
-        Note note=(Note)noteDatabaSession.get(Note.class, noteId);
+        try{
+            noteDatabaseConnection = FactoryProvider.getFactory().openSession();
+            databaseTransaction = noteDatabaseConnection.beginTransaction();
+            Note note=(Note)noteDatabaseConnection.get(Note.class, noteId);
         
-        noteDatabaSession.delete(note);
-        databaseTransaction.commit();
-        noteDatabaSession.close();
+            noteDatabaseConnection.delete(note);
+            databaseTransaction.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+            databaseTransaction.rollback();
+        }finally{
+            noteDatabaseConnection.close();
+        }
     }
 
     public void updateNotes(int noteId, String content, String title){
 
-        //check for update method on internet for hibernate
-        noteDatabaSession = FactoryProvider.getFactory().openSession();
-        databaseTransaction = noteDatabaSession.beginTransaction();
-        Note note = noteDatabaSession.get(Note.class, noteId);
-        note.setId(noteId);
-        note.setContent(content);
-        note.setTitle(title);
-        noteDatabaSession.update(note);
-        databaseTransaction.commit();
-        noteDatabaSession.close();
-        
+        try{
+            databaseTransaction = noteDatabaseConnection.beginTransaction();
+            Note note = noteDatabaseConnection.get(Note.class, noteId);
+            note.setId(noteId);
+            note.setContent(content);
+            note.setTitle(title);
+            noteDatabaseConnection.update(note);
+            databaseTransaction.commit();
+        }catch(Exception e){
+            databaseTransaction.rollback();    
+        }finally{
+            noteDatabaseConnection.close();
+        }
     }
     
-    protected EntityManager manager;
-
     public List<Note> getNotesList(){
-        //try to use lazy loading
-        //check for fetching in hibernate
-        List<Note> list;
-
-            noteDatabaSession = FactoryProvider.getFactory().openSession();
-            databaseTransaction = noteDatabaSession.beginTransaction();
-            list = noteDatabaSession.createQuery("SELECT a FROM a", Note.class).getResultList();
-                
-            System.out.println(list.toString());
+        
+        List<Note> notesList=null;
+        try{
+            databaseTransaction = noteDatabaseConnection.beginTransaction();
+            notesList = noteDatabaseConnection.createQuery("from note",Note.class).getResultList();  
             databaseTransaction.commit();
-            noteDatabaSession.close();
-        /*
         }
-        catch (Exception e){
-            databaseTransaction.rollback();
-            e.printStackTrace();
-        }*/
-        return list;
-        //return s.getClass();
+        catch(QueryTimeoutException queryTimeoutException){
+            queryTimeoutException.printStackTrace();
+            noteDatabaseConnection.close();
+        }finally{
+            noteDatabaseConnection.close();
+        }
+        return notesList;
     }
 }

@@ -5,24 +5,23 @@ import org.hibernate.cfg.Configuration;
 
 public class FactoryProvider {
 
-	private static SessionFactory factory;
+	private static SessionFactory databaseSession;
 
 	private FactoryProvider(){
 
 	}
 	public static SessionFactory getFactory() {
 
-		if (factory == null) {
-			factory = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
+		if (databaseSession == null) {
+			databaseSession = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
 		}
 
-		return factory;
+		return databaseSession;
 	}
 
 	public void closeFactory() {
-		if (factory.isOpen()) {
-			factory.close();
+		if (databaseSession.isOpen()) {
+			databaseSession.close();
 		}
 	}
-	//Check whether this is a single design pattern or not
 }

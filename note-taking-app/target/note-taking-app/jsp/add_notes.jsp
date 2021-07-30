@@ -11,7 +11,6 @@
 	<div class="container">
 		<%@include file="navbar.jsp"%>
 		<br>
-
 		<h1>Please fill your note detail</h1>
 		<br>
 		<form action="notes" method="post">

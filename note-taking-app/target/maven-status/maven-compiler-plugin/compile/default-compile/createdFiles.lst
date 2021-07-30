@@ -1,0 +1,7 @@
+entities\Note.class
+helper\FactoryProvider.class
+servlets\SaveNoteServlet.class
+servlets\LoginServlet.class
+filter\LoginFilter.class
+servlets\Logout.class
+dao\NotesDAO.class
