@@ -1,6 +1,7 @@
 entities\Note.class
 helper\FactoryProvider.class
 servlets\SaveNoteServlet.class
+exception\CustomException.class
 servlets\LoginServlet.class
 filter\LoginFilter.class
 servlets\Logout.class

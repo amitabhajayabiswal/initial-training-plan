@@ -1,0 +1,20 @@
+.navBar  
+{  
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 10px;  
+    background-color:#083dadba;  
+    font-family: 'Arial'; 
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 70px; 
+}
+.logout{
+    align-items: flex-end;
+}
+.leftNavBar{
+    align-items: flex-start;
+}

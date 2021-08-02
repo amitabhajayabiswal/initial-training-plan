@@ -1,0 +1,13 @@
+
+.custom-form{
+	align-items: center;
+	width: 70%;
+	border: 3px solid green;
+	padding: 10px;
+}
+.add-button{
+	align-items: center;
+}
+.container{
+	align-items: center;
+}
