@@ -15,7 +15,7 @@
 		<br>
 		<form action="notes" method="post">
 			<div class="custom-form" >
-				<label for="title" >Note title</label> 
+				<label for="title" >Note title</label>
 				<input name="title" required type="text" id="title" placeholder="Enter here" />
 			</div>
 			<div class="custom-form">

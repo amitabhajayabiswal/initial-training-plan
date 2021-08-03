@@ -13,7 +13,6 @@
 				<a href="jsp/addNotes.jsp">Start here</a>
 			</div>
 		</div>
-		
 	</div>
 </body>
 </html>

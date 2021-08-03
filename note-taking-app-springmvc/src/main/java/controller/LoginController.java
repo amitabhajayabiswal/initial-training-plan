@@ -35,7 +35,7 @@ public class LoginController {
     }
 
   @RequestMapping(value = "/loginProcess", method = RequestMethod.POST)
-  public ModelAndView loginProcess(HttpServletRequest request, HttpServletResponse response, @ModelAttribute("login") Login login) {
+  public ModelAndView loginProcess(HttpServletRequest request, HttpServletResponse response, @ModelAttribute("login") Login login, Model model) {
     
     ModelAndView mav = null;
     User user = userService.validateUser(login);

@@ -23,7 +23,7 @@ public class NoteDaoImpl implements NotesDAO{
 
     public void addNotes(){
         String sql = "select * from notes";
-        List<Notes> notesList = jdbcTemplate.query(sql, new NotesMapper());
+        //List<Notes> notesList = jdbcTemplate.query(sql, new NotesMapper());
     }
 
     public void fetchNotes(){
@@ -39,6 +39,7 @@ public class NoteDaoImpl implements NotesDAO{
     }
 }
 
+/*
 class NotesMapper implements RowMapper<Notes>{
 
     @Override
@@ -48,3 +49,4 @@ class NotesMapper implements RowMapper<Notes>{
     }
 
 }
+*/

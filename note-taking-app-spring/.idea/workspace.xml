@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99268c60-cdd0-4387-9b30-5e3686c6e0f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/java/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/java/dao/impl/NoteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/java/dao/impl/NoteDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/java/model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/java/model/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/webapp/jsp/addNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/webapp/jsp/addNotes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/webapp/jsp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/src/main/webapp/jsp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/controller/NotesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/controller/NotesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/NotesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/NotesDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/impl/NoteDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/impl/NoteDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/impl/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/dao/impl/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/model/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/model/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/model/Notes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/model/Notes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/classes/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/controller/NotesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/controller/NotesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/NotesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/NotesDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/impl/NoteDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/impl/NoteDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/impl/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/dao/impl/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/model/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/model/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/model/Notes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/model/Notes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/WEB-INF/classes/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app-springmvc/target/note-taking-app-springmvc/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/classes/dao/NotesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/classes/dao/NotesDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/classes/entities/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/classes/entities/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/classes/exception/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/classes/exception/CustomException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/classes/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/classes/filter/LoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/classes/helper/FactoryProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/classes/helper/FactoryProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/classes/servlets/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/classes/servlets/Logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/classes/servlets/Logout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/classes/servlets/SaveNoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/classes/servlets/SaveNoteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app.war" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/dao/NotesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/dao/NotesDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/entities/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/entities/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/exception/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/exception/CustomException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/filter/LoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/helper/FactoryProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/helper/FactoryProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/servlets/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/servlets/Logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/servlets/Logout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/servlets/SaveNoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../note-taking-app/target/note-taking-app/WEB-INF/classes/servlets/SaveNoteServlet.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1wAkOREEP4Czg4oEkyMeddKLbp9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99268c60-cdd0-4387-9b30-5e3686c6e0f0" name="Changes" comment="" />
+      <created>1627908992686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627908992686</updated>
+    </task>
+    <servers />
+  </component>
+</project>
